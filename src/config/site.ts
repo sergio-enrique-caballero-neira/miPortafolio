@@ -104,7 +104,7 @@ export const siteConfig = {
         "Se respetuoso y contructivo en tus comentarios",
         "No se permite ningun tipo de spam, anuncios o autopromocion",
         "No se permiten ataques personales ni ningun tipo de discurso de odio",
-        "Mentente en el tema y manten comentarios relevantes en la discusion",
+        "Mantente en el tema y manten comentarios relevantes en la discusion",
         "No se permite contenido inapropiado o ilegal",
       ],
     },
