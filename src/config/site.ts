@@ -1,16 +1,16 @@
 // Site-wide configuration
 export const siteConfig = {
   // Site metadata
-  name: "Astro Blog",
-  title: "Astro Blog",
-  description: "A modern blog built with Astro",
+  name: "Portafolio",
+  title: "Portafolio",
+  description: "Un portafolio moderno creado con astro",
   
   // Navigation
   navigation: {
     home: "Home",
     posts: "Posts",
-    contact: "Contact",
-    comments: "Comments",
+    contact: "Contacto",
+    comments: "Comentarios",
   },
   
   // Hero Section
@@ -40,7 +40,7 @@ export const siteConfig = {
   // Contact Page
   contact: {
     title: "Ponte en contacto",
-    subtitle: "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.",
+    subtitle: "Estoy siempre atento a cualquier sugerencia que puedas darme",
     info: {
       email: {
         label: "Email",
@@ -67,46 +67,45 @@ export const siteConfig = {
       ],
     },
     footerText: [
-      "I typically respond to messages within 24 hours during business days.",
-      "Looking forward to hearing from you! 🚀",
+      "Usualmente respondo los mensajes que me envias dentro de las 24H habiles",
+      "Esperando escuchar de ti! 🚀",
     ],
-    messageButton: "💬 Leave a Message",
+    messageButton: "💬 Deja un mensaje",
   },
   
   // Footer
   footer: {
-    copyright: "© 2025 Someone. All rights reserved.",
+    copyright: "© 2025 Astro - Sergio Enrique Caballero Neira. All rights reserved.",
     links: [
-      { text: "Privacy Policy", url: "#" },
-      { text: "Terms of Service", url: "#" },
+      { text: "Politicas de privacidad", url: "#" },
+      { text: "Terminos de uso", url: "#" },
       { text: "Sitemap", url: "#" },
     ],
     github: {
-      text: "Star this project on Github",
-      url: "https://github.com/tomcomtang/astro-cartoon-portfolio",
+      text: "",
+      url: "",
     },
   },
   
   // Posts Page
   posts: {
     title: "Blog Posts",
-    subtitle: "Explore our latest articles on web development, design, and technology",
-    searchPlaceholder: "Search posts...",
+    subtitle: "Explora mis ultimos articulos en tecnologia",
+    searchPlaceholder: "Buscando Post...",
   },
   
   // Comments Page
   comments: {
-    title: "Comments & Discussion",
-    subtitle: "Share your thoughts, questions, or suggestions here. Let's connect and discuss!",
+    title: "Comentarios y Discusiones",
+    subtitle: "Comparte tus pensamientos, Preguntas, o Sugerencias. Conectemos y Discutamos!",
     guidelines: {
-      title: "Community Guidelines",
+      title: "Reglas de la comunidad",
       items: [
-        "Be respectful and constructive in your comments",
-        "No spam, self-promotion, or advertising allowed",
-        "No personal attacks, hate speech, or harassment",
-        "Stay on topic and keep discussions relevant",
-        "No inappropriate, offensive, or illegal content",
-        "Use clear, friendly, and inclusive language",
+        "Se respetuoso y contructivo en tus comentarios",
+        "No se permite ningun tipo de spam, anuncios o autopromocion",
+        "No se permiten ataques personales ni ningun tipo de discurso de odio",
+        "Mentente en el tema y manten comentarios relevantes en la discusion",
+        "No se permite contenido inapropiado o ilegal",
       ],
     },
   },
