@@ -18,7 +18,7 @@ export const siteConfig = {
     prefix: "Yo soy",
     name: "Sergio Enrique Caballero Neira",
     intro: "Soy un estudiante de ingenieria de sistemas en la universidad El Bosque",
-    avatar: "/image/20943608.jpeg",
+    avatar: "https://i.imgur.com/2b6LXkt.jpeg",
     buttons: {
       viewPosts: "Ver post",
       contactMe: "Contactame",
