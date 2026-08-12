@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "astro-cartoon-portfolio",
+  "name": "miportafolio",
   "main": "./dist/_worker.js/index.js",
   "compatibility_date": "2026-08-12",
   "compatibility_flags": [
@@ -8,6 +8,7 @@
   ],
   "assets": {
     "binding": "ASSETS",
-    "directory": "./dist"
+    "directory": "./dist",
+    "exclude": ["_worker.js/**"]
   }
 }
