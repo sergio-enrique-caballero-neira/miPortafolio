@@ -14,6 +14,11 @@ const currentPath = Astro.url.pathname;
       >
     </li>
     <li>
+      <a href="/posts" class={`menu-link ${currentPath.startsWith("/posts") ? "active" : ""}`}
+        >{siteConfig.navigation.posts}</a
+      >
+    </li>
+    <li>
       <a
         href="/contact"
         class={`menu-link ${currentPath.startsWith("/contact") ? "active" : ""}`}

@@ -7,8 +7,8 @@ export const siteConfig = {
   
   // Navigation
   navigation: {
-    home: "Home",
-    posts: "Posts",
+    home: "Presentación",
+    posts: "Evidencias",
     contact: "Contacto",
     comments: "Comentarios",
   },
