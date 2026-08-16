@@ -6,5 +6,6 @@ import react from '@astrojs/react';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://sergio-enrique-caballero-neira.github.io',
+  base: '/miPortafolio',
   integrations: [react()]
 });
